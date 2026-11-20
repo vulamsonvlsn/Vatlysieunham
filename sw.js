@@ -1,6 +1,6 @@
 // Service worker – VLSN Team (bản Supabase)
 // Lưu "vỏ" ứng dụng để mở nhanh và mở được khi mạng chập chờn. Dữ liệu luôn lấy trực tiếp từ Supabase.
-const VERSION = 'vlsn-supa-v3';
+const VERSION = 'vlsn-supa-v4';
 const SHELL = ['./', './index.html', './offline.html', './manifest.webmanifest', './config.js',
   './icons/icon-192.png', './icons/icon-512.png', './icons/apple-touch-icon.png', './icons/favicon-32.png'];
 self.addEventListener('install', e => e.waitUntil(caches.open(VERSION).then(c => c.addAll(SHELL)).then(() => self.skipWaiting())));
