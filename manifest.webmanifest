@@ -1,0 +1,79 @@
+{
+  "name": "VẬT LÝ SIÊU NHẨM – Quản lý Team",
+  "short_name": "VLSN Team",
+  "description": "Quản lý công việc trợ giảng, giáo viên và phòng quản lý – Vật Lý Siêu Nhẩm",
+  "id": "./",
+  "start_url": "./?source=pwa",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "lang": "vi",
+  "background_color": "#ffffff",
+  "theme_color": "#4E9A1E",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Trực lớp",
+      "short_name": "Trực lớp",
+      "url": "./?source=pwa",
+      "icons": [
+        {
+          "src": "icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Kèm học sinh",
+      "short_name": "Kèm học sinh",
+      "url": "./?source=pwa#kem-hoc-sinh",
+      "icons": [
+        {
+          "src": "icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Kèm nhóm",
+      "short_name": "Kèm nhóm",
+      "url": "./?source=pwa#kem-nhom",
+      "icons": [
+        {
+          "src": "icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Gia sư",
+      "short_name": "Gia sư",
+      "url": "./?source=pwa#gia-su",
+      "icons": [
+        {
+          "src": "icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}
