@@ -713,7 +713,7 @@ const NAV=[
  ['dao-tao','Đào tạo sáng thứ 2',()=>isAdmin()||dtPeople().includes(ME())||scopeHasAll('daotao')],
  ['Khác'],
  ['de-xuat','Đề xuất',()=>true],
- ['tro-giang','Màn hình trợ giảng',()=>true],
+ ['tro-giang','Màn hình trợ giảng',()=>false],
  ['thanh-vien','Thành viên & phân quyền',()=>isAdmin()||scopeHasAll('thanhvien')],
  ['dan-dat','Trợ giảng tôi dẫn dắt',()=>has(ME(),'Giáo viên')&&STAFF.some(s=>s.dandat===ME())],
 ];
