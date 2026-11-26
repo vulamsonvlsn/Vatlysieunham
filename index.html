@@ -3894,7 +3894,7 @@ const ISO_RE=/^\d{4}-\d\d-\d\dT\d\d:\d\d:\d\d(\.\d+)?Z$/;
 const revive=(k,v)=>typeof v==='string'&&ISO_RE.test(v)?new Date(v):v;
 S.notes=S.notes||{};S.settings=S.settings||{};S.deRaw=S.deRaw||{};
 S.so=S.so||{};S.free=S.free||[];S.vp=S.vp||[];S.dx=S.dx||[];S.cmBai=S.cmBai||[];
-const KV_KEYS=['ltTpl','perms','userPerm','cs','manual','deDone','notes','settings','deRaw','lt','qr','hocbu','csAuto','upReq','soPend','cmVid','hsMoi','slq','payLog','pay','ldso','ktTB','cbXL','cbXLarc'];
+const KV_KEYS=['ltTpl','perms','userPerm','cs','manual','deDone','notes','settings','deRaw','lt','qr','hocbu','csAuto','upReq','soPend','cmVid','hsMoi','slq','payLog','pay','ldso','ktTB','cbXL','cbXLarc','deqr'];
 const ARR={staff:[()=>STAFF,'ten'],roles:[()=>S.roles,'ten'],kem:[()=>S.kem,'id'],series:[()=>S.series,'id'],projects:[()=>S.projects,'id'],soan:[()=>S.soan,'id'],
   cm:[()=>S.cm,'id'],notif:[()=>S.notif,'nid'],free:[()=>S.free,'id'],vp:[()=>S.vp,'id'],dx:[()=>S.dx,'id'],cmBai:[()=>S.cmBai,'id']};
 const ADMIN_ONLY=k=>/^(staff|roles)\|/.test(k)||k==='kv|perms'||k==='kv|userPerm';
